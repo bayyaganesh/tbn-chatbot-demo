@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+#chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: #e8f0fe;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+#chat-header {
+  background: #1e88e5;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#chat-body {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#chat-log {
+  height: 120px;
+  overflow-y: auto;
+  background: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+#user-input {
+  width: 70%;
+  padding: 5px;
+}
+#chat-body button {
+  width: 25%;
+  padding: 5px;
+}
+#lead-form {
+  padding: 10px;
+}
+#lead-form input, #lead-form textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+}
