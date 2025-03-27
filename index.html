@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TBN Chatbot Demo</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div id="chat-widget">
+    <div id="chat-header">💬 TBN Chatbot</div>
+    <div id="chat-body">
+      <div id="chat-log"></div>
+      <input type="text" id="user-input" placeholder="Ask a question..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="lead-form">
+      <h3>Leave your details</h3>
+      <input type="text" id="name" placeholder="Your Name" /><br/>
+      <input type="email" id="email" placeholder="Your Email" /><br/>
+      <textarea id="message" placeholder="Your Message"></textarea><br/>
+      <button onclick="submitLead()">Submit</button>
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
